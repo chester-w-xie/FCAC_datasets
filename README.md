@@ -1,7 +1,7 @@
 # Details of the datasets for Few-shot class-incremental audio classification
 ASVP@SCUT 👍👍👍🤙🤙🤙
 
-This repository contains the datasets description of Nsynth-100 and Free-sound cilps of 89 classes (FSC-89) , which are used in the paper, 
+This repository contains the datasets description of the Nsynth-100 and the Free-sound cilps of 89 classes (FSC-89) , which are used in the paper, 
 "Few-shot class-incremental audio classification using adaptively-refined prototypes" (Submitted to ICASSP2023).
 
 **Table of Contents**
