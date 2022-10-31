@@ -7,6 +7,7 @@ This repository contains the datasets description of Nsynth-100 and Free-sound c
 **Table of Contents**
 - [Statistics on the datasets](#statistics-on-the-datasets)
 - [Construction of the datasets](#construction-of-the-datasets)
+- [Contact](#contact)
 - [Citation](#citation)
 
 ## Statistics on the datasets
@@ -30,9 +31,18 @@ The method of constructing the datasets will be available when the final version
 
 
 
+## Contact
+Wei Xie
+
+South China University of Technology, Guangzhou, China
+
+Email: chester.w.xie@gmail.com
+
+
 ## Citation
 Please cite our paper if you find the datasets are useful for your research.
 
 Wei Xie, Yanxiong Li, Qianhua He. "Few-shot class-incremental audio classification using adaptively-refined prototypes", xxx, 2023
+
 
 
