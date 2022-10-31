@@ -5,8 +5,8 @@ This repository contains the datasets description of Nsynth-100 and Free-sound c
 "Few-shot class-incremental audio classification using adaptively-refined prototypes" (Submitted to ICASSP2023).
 
 **Table of Contents**
-- [Statistics on the datasets](#Statistics on the datasets)
-- [Construction of the datasets](#Construction of the datasets)
+- [Statistics on the datasets](#statistics-on-the-datasets)
+- [Construction of the datasets](#construction-of-the-datasets)
 - [Citation](#citation)
 
 ## Statistics on the datasets
