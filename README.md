@@ -103,7 +103,7 @@ python Load_nsynth_data_for_FCAC.py --metapath path to Nsynth_audio_for_FCAC fol
 1. Since the FSC-89 dataset is extracted from the FSD-MIX-CLIPS dataset, we need to prepare the FSD-MIX-CLIPS dataset first. See the instructions in
 [here](./Preparation_of_the_FSD-MIX-CLIPS_dataset/README.md).
 
-2. Download the meta file of FSC-89 dataset from [here](), You should get a structure of the directory as follows:
+2. Download the meta file of FSC-89 dataset from [here](./FSC-89-meta), You should get a structure of the directory as follows:
 
 <pre>
 FSC-89-meta   
