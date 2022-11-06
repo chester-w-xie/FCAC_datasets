@@ -42,7 +42,7 @@ Based on the statistical results, we obtain the Nsynth-100 dataset by the follow
 1. Download [Train set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-train.jsonwav.tar.gz), [Valid set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-valid.jsonwav.tar.gz), and [test set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-test.jsonwav.tar.gz) of the Nsynth dataset to your local machine and unzip them.
 You should get a structure of the directory as follows:
 <pre>
-Your dataset root 
+Your dataset root (Nsynth_audio_for_FCAC)
 ├── nsynth-train　 # Training set of the Nsynth dataset
 │    ├── audio
 │    |    ├── bass_acoustic_000-024-025.wav
@@ -64,30 +64,30 @@ Your dataset root
 2. Download the meta files for FCAC from [here](./Nsynth_meta_for_FCAC) to your local machine and unzip them.
 You should get a structure of the directory as follows:
 <pre>
-Your dataset root
-├── nsynth-100-meta
-│    ├── nsynth-100_train.csv # containing information of all training samples from the base and novel classes
-│    ├── nsynth-100_val.csv  #　containing information of all validation samples from the base classes
-│    ├── nsynth-100_test.csv　# containing information of all test samples from the old and novel classes
-│    └── nsynth-100_vocab.json 　# label vocabulary of the dataset
+Your dataset root (Nsynth_meta_for_FCAC)
+├── nsynth-100-fs-meta
+│    ├── nsynth-100-fs_train.csv # containing information of all training samples from the base and novel classes
+│    ├── nsynth-100-fs_val.csv  #　containing information of all validation samples from the base classes
+│    ├── nsynth-100-fs_test.csv　# containing information of all test samples from the old and novel classes
+│    └── nsynth-100-fs_vocab.json 　# label vocabulary of the dataset
 │    
-├── nsynth-200-meta
-│    ├── nsynth-200_train.csv #  
-│    ├── nsynth-200_val.csv
-│    ├── nsynth-200_test.csv
-│    └── nsynth-200_vocab.json
+├── nsynth-200-fs-meta
+│    ├── nsynth-200-fs_train.csv #  
+│    ├── nsynth-200-fs_val.csv
+│    ├── nsynth-200-fs_test.csv
+│    └── nsynth-200-fs_vocab.json
 │    
-├── nsynth-300-meta
-│    ├── nsynth-300_train.csv #  
-│    ├── nsynth-300_val.csv
-│    ├── nsynth-300_test.csv
-│    └── nsynth-300_vocab.json
+├── nsynth-300-fs-meta
+│    ├── nsynth-300-fs_train.csv #  
+│    ├── nsynth-300-fs_val.csv
+│    ├── nsynth-300-fs_test.csv
+│    └── nsynth-300-fs_vocab.json
 │       
-└── nsynth-400-meta
-     ├── nsynth-400_train.csv #  
-     ├── nsynth-400_val.csv
-     ├── nsynth-400_test.csv
-     └── nsynth-400_vocab.json
+└── nsynth-400-fs-meta
+     ├── nsynth-400-fs_train.csv #  
+     ├── nsynth-400-fs_val.csv
+     ├── nsynth-400-fs_test.csv
+     └── nsynth-400-fs_vocab.json
 
 </pre>
 
