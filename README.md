@@ -15,6 +15,7 @@ respectively.
 **Table of Contents**
 - [Statistics on the datasets](#statistics-on-the-datasets)
 - [Preparation of the Nsynth-100 dataset](#preparation-of-the-Nsynth-100-dataset)
+- [Preparation of the FSC-89 dataset](#preparation-of-the-fsc-89-dataset)
 - [Contact](#contact)
 - [Citation](#citation)
 
@@ -97,7 +98,10 @@ python Load_nsynth_data_for_FCAC.py --metapath path to Nsynth_audio_for_FCAC fol
 
 ```
 
+## Preparation of the FSC-89 dataset
 
+Since the FSC-89 dataset is extracted from the FSD-MIX-CLIPS dataset, we need to prepare the FSD-MIX-CLIPS dataset first. See the instructions in
+[here](./Preparation_of_the_FSD-MIX-CLIPS_dataset/README.md)
 
 
 ## Contact
