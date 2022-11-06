@@ -91,7 +91,11 @@ Your dataset root (Nsynth_meta_for_FCAC)
 
 </pre>
 
+3. Run the following script to test the loading of the dataset:
+```
+python Load_nsynth_data_for_FCAC.py --metapath path to Nsynth_audio_for_FCAC folder --audiopath path to Nsynth_meta_for_FCAC folder --num_class 100 --base_class 55
 
+```
 
 
 
