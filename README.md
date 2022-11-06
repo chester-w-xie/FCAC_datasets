@@ -37,8 +37,10 @@ Those musical notes are belonging to 1,006 musical instruments.
 
 Before constructing the Nsynth-100 dataset, we first conduct some statistical analysis on the Nsynth dataset, see [here](/Statistics_of_the_Nsynth_dataset.md).
 
-The Nsynth-100 dataset is then prepared as follows:
+Based on the statistical results, we obtain the NS dataset by the following steps:
+
 1. Download [Train set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-train.jsonwav.tar.gz), [Valid set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-valid.jsonwav.tar.gz), and [test set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-test.jsonwav.tar.gz) of the Nsynth dataset to your local machine and unzip them.
+You should get a structure of the directory as follows:
 <pre>
 Your dataset root 
 ├── nsynth-train　 # Training set of the Nsynth dataset
