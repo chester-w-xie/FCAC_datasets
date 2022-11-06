@@ -92,7 +92,7 @@ Your dataset root (Nsynth_meta_for_FCAC)
 
 </pre>
 
-3. Run the following script to test the loading of the Nsynth-100 dataset:
+3. Run the following script to load the Nsynth-100 dataset:
 ```
 python Load_nsynth_data_for_FCAC.py --metapath path to Nsynth_audio_for_FCAC folder --audiopath path to Nsynth_meta_for_FCAC folder --num_class 100 --base_class 55
 
@@ -119,6 +119,12 @@ FSC-89-meta
 
 </pre>
 
+3. Run the following script to load the FSC-89 dataset:
+
+```
+python load_fsc_89_data_for_FCAC.py --metapath path to FSC-89-meta folder \
+--datapath path to FSD-MIX-CLIPS_data folder --data_type audio --setup setup1
+```
 
 ## Contact
 Wei Xie
