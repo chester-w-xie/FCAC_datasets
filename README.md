@@ -61,7 +61,8 @@ Your dataset root
      |    └── ....
      └── examples.json
 </pre>
-2. Download the meta files of the nsynth-100/200/300/400 datasets and save them with the audio datasets according to the following directory structure:
+2. Download the meta files for FCAC from [here](./Nsynth_meta_for_FCAC) to your local machine and unzip them.
+You should get a structure of the directory as follows:
 <pre>
 Your dataset root
 ├── nsynth-100-meta
