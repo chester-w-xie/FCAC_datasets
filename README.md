@@ -35,7 +35,7 @@ respectively.
 The NSynth dataset is an audio dataset containing 305,979 musical notes, each with a unique pitch, timbre, and envelope. 
 Those musical notes are belonging to 1,006 musical instruments. 
 
-Before constructing the Nsynth-100 dataset, we first conduct some statistical analysis on the Nsynth dataset, see /Statistics_of_the_Nsynth_dataset.md
+Before constructing the Nsynth-100 dataset, we first conduct some statistical analysis on the Nsynth dataset, see [here](/Statistics_of_the_Nsynth_dataset.md).
 
 The Nsynth-100 dataset is then prepared as follows:
 1. Download [Train set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-train.jsonwav.tar.gz), [Valid set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-valid.jsonwav.tar.gz), and [test set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-test.jsonwav.tar.gz) of the Nsynth dataset to your local machine and unzip them.
