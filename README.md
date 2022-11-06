@@ -14,7 +14,7 @@ respectively.
 
 **Table of Contents**
 - [Statistics on the datasets](#statistics-on-the-datasets)
-- [Preparation of the Nsynth-100 datasets](#preparation-of-the-Nsynth-100-datasets)
+- [Preparation of the Nsynth-100 dataset](#preparation-of-the-Nsynth-100-datasets)
 - [Contact](#contact)
 - [Citation](#citation)
 
@@ -29,7 +29,7 @@ respectively.
 |                     Duration of the sample                      |               All in 4 seconds                |               All in 1 second                |
 |                       Sampling frequency                        |                 All in 16K Hz                 |               All in 44.1K Hz                |
 
-## Preparation of the Nsynth-100 datasets
+## Preparation of the Nsynth-100 dataset
 
 
 The NSynth dataset is an audio dataset containing 305,979 musical notes, each with a unique pitch, timbre, and envelope. 
