@@ -78,7 +78,7 @@ python get_cilps_audio_or_openl3.py --annpath path to FSD_MIX_CLIPS.annotations_
 ```
 The resulting FMC dataset will be saved in the corresponding path in the following directory structure:
 <pre>
-├── FSD_MIX_CLIPS_data # - 利用更正后的标注信息合成好的cilps数据集
+├── FSD_MIX_CLIPS_data # -  
     └── audio  # - audio samples
          ├── base
          |     ├── train
@@ -102,7 +102,7 @@ Number of samples in each subset:
 
 Note: Base-train, Base-val, and Base-test subsets contain sound samples of classes 0 to 58, 
 and the samples in the three subsets do not overlap. The subset Novel-val contains sound samples of classes 59 to 73, 
-and the subset Novel-test contains sound samples of classes 74 to 88. The specific names of the sounds can be found [here]().
+and the subset Novel-test contains sound samples of classes 74 to 88. The specific names of the sounds can be found [here](vocabulary_of_FSC-89.json).
 
 Considering the above statistics and the problem setting of FCAC, we have two options for constructing the FCAC dataset:
 
