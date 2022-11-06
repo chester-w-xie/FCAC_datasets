@@ -14,7 +14,7 @@ respectively.
 
 **Table of Contents**
 - [Statistics on the datasets](#statistics-on-the-datasets)
-- [Preparation of the datasets](#preparation-of-the-datasets)
+- [Preparation of the datasets](#preparation-of-the-Nsynth-100-datasets)
 - [Contact](#contact)
 - [Citation](#citation)
 
@@ -29,7 +29,7 @@ respectively.
 |                     Duration of the sample                      |               All in 4 seconds                |               All in 1 second                |
 |                       Sampling frequency                        |                 All in 16K Hz                 |               All in 44.1K Hz                |
 
-## Preparation of the datasets
+## Preparation of the Nsynth-100 datasets
 
 
 The NSynth dataset is an audio dataset containing 305,979 musical notes, each with a unique pitch, timbre, and envelope. 
@@ -91,7 +91,7 @@ Your dataset root (Nsynth_meta_for_FCAC)
 
 </pre>
 
-3. Run the following script to test the loading of the dataset:
+3. Run the following script to test the loading of the Nsynth-100 dataset:
 ```
 python Load_nsynth_data_for_FCAC.py --metapath path to Nsynth_audio_for_FCAC folder --audiopath path to Nsynth_meta_for_FCAC folder --num_class 100 --base_class 55
 
