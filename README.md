@@ -14,7 +14,7 @@ respectively.
 
 **Table of Contents**
 - [Statistics on the datasets](#statistics-on-the-datasets)
-- [Preparation of the Nsynth-100 dataset](#preparation-of-the-Nsynth-100-datasets)
+- [Preparation of the Nsynth-100 dataset](#preparation-of-the-Nsynth-100-dataset)
 - [Contact](#contact)
 - [Citation](#citation)
 
