@@ -32,7 +32,61 @@ respectively.
 ## Preparation of the datasets
 
 
-The method of constructing the datasets will be available when the final version of the paper is confirmed.
+The NSynth dataset is an audio dataset containing 305,979 musical notes, each with a unique pitch, timbre, and envelope. 
+Those musical notes are belonging to 1,006 musical instruments. 
+
+Before constructing the Nsynth-100 dataset, we first conduct some statistical analysis on the Nsynth dataset, see ./sre
+
+The Nsynth-100 dataset is then prepared as follows:
+1. Download [Train set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-train.jsonwav.tar.gz), [Valid set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-valid.jsonwav.tar.gz), and [test set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-test.jsonwav.tar.gz) of the Nsynth dataset to your local machine and unzip them.
+<pre>
+Your dataset root 
+├── nsynth-train　 # Training set of the Nsynth dataset
+│    ├── audio
+│    |    ├── bass_acoustic_000-024-025.wav
+│    |    └── ....
+│    └── examples.json  # meta file of the training set
+│
+├── nsynth-val  # Validation set of the Nsynth dataset
+│    ├── audio
+│    |    ├── bass_electronic_018-022-025.wav
+│    |    └── ....
+│    └── examples.json
+│
+└── nsynth-test # Test set of the Nsynth dataset
+     ├── audio
+     |    ├── bass_electronic_018-022-100.wav
+     |    └── ....
+     └── examples.json
+</pre>
+2. Download the meta files of the nsynth-100/200/300/400 datasets and save them with the audio datasets according to the following directory structure:
+<pre>
+Your dataset root
+├── nsynth-100-meta
+│    ├── nsynth-100_train.csv # containing information of all training samples from the base and novel classes
+│    ├── nsynth-100_val.csv  #　containing information of all validation samples from the base classes
+│    ├── nsynth-100_test.csv　# containing information of all test samples from the old and novel classes
+│    └── nsynth-100_vocab.json 　# label vocabulary of the dataset
+│    
+├── nsynth-200-meta
+│    ├── nsynth-200_train.csv #  
+│    ├── nsynth-200_val.csv
+│    ├── nsynth-200_test.csv
+│    └── nsynth-200_vocab.json
+│    
+├── nsynth-300-meta
+│    ├── nsynth-300_train.csv #  
+│    ├── nsynth-300_val.csv
+│    ├── nsynth-300_test.csv
+│    └── nsynth-300_vocab.json
+│       
+└── nsynth-400-meta
+     ├── nsynth-400_train.csv #  
+     ├── nsynth-400_val.csv
+     ├── nsynth-400_test.csv
+     └── nsynth-400_vocab.json
+
+</pre>
 
 
 
