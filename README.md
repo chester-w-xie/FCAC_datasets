@@ -7,7 +7,7 @@ This repository contains the description of Nsynth-100 and Free-sound cilps of 8
 Motivation for constructing the datasets: 
 
 To study the Few-shot Class-incremental Audio Classification (FCAC) problem, we constructed the Nsynth-100 dataset and FSC-89 dataset
-using the [NSynth](https://magenta.tensorflow.org/datasets/nsynth) dataset and the [FSD-MIX-CLIPS](https://zenodo.org/record/5574135#.YWyINEbMIWo) dataset as the source materials,
+using partial samples from the [NSynth](https://magenta.tensorflow.org/datasets/nsynth) dataset and the [FSD-MIX-CLIPS](https://zenodo.org/record/5574135#.YWyINEbMIWo) dataset as the source materials,
 respectively.
 
 
