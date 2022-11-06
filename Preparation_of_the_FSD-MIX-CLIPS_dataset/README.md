@@ -102,7 +102,7 @@ Number of samples in each subset:
 
 Note: Base-train, Base-val, and Base-test subsets contain sound samples of classes 0 to 58, 
 and the samples in the three subsets do not overlap. The subset Novel-val contains sound samples of classes 59 to 73, 
-and the subset Novel-test contains sound samples of classes 74 to 88. The specific names of the sounds can be found [here](vocabulary_of_FSC-89.json).
+and the subset Novel-test contains sound samples of classes 74 to 88. The specific names of the sounds can be found [here](https://github.com/chester-w-xie/FCAC_datasets/blob/main/vocabulary_of_FSC-89.json).
 
 Considering the above statistics and the problem setting of FCAC, we have two options for constructing the FCAC dataset:
 
