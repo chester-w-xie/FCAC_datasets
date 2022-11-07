@@ -144,6 +144,6 @@ chester.w.xie@gmail.com
 ## Citation
 Please cite our paper if you find the datasets are useful for your research.
 
-Wei Xie, Yanxiong Li, Qianhua He. "Few-shot class-incremental audio classification using adaptively-refined prototypes", xxx, 2023
+Wei Xie, Yanxiong Li, Qianhua He. "Few-shot class-incremental audio classification using adaptively-refined prototypes", Submitted to IEEE ICASSP 2023
 
 
