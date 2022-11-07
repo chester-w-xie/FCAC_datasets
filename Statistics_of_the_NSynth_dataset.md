@@ -1,4 +1,4 @@
-### Statistics of the Nsynth dataset
+### Statistics of the NSynth dataset
 |                                             |   train   |    val    |   test    |
 |:-------------------------------------------:|:---------:|:---------:|:---------:|
 |        Num. of classes (Instruments)        |    953    |    53     |    53     | 
