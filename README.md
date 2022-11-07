@@ -34,7 +34,7 @@ respectively.
 ## Preparation of the Nsynth-100 dataset
 
 
-The NSynth dataset is an audio dataset containing 305,979 musical notes, each with a unique pitch, timbre, and envelope. 
+The NSynth dataset is an audio dataset containing 306,043 musical notes, each with a unique pitch, timbre, and envelope. 
 Those musical notes are belonging to 1,006 musical instruments. 
 
 Before constructing the Nsynth-100 dataset, we first conduct some statistical analysis on the Nsynth dataset, see [here](/Statistics_of_the_Nsynth_dataset.md).
