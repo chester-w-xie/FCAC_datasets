@@ -16,6 +16,7 @@ respectively.
 - [Statistics on the datasets](#statistics-on-the-datasets)
 - [Preparation of the Nsynth-100 dataset](#preparation-of-the-Nsynth-100-dataset)
 - [Preparation of the FSC-89 dataset](#preparation-of-the-fsc-89-dataset)
+- [Acknowledgment](#acknowledgment)
 - [Contact](#contact)
 - [Citation](#citation)
 
@@ -125,6 +126,12 @@ FSC-89-meta
 python load_fsc_89_data_for_FCAC.py --metapath path to FSC-89-meta folder \
 --datapath path to FSD-MIX-CLIPS_data folder --data_type audio --setup setup1
 ```
+
+## Acknowledgment
+Our project references the codes in the following repos.
+
+- [rethink-audio-fsl](https://github.com/wangyu/rethink-audio-fsl)
+- [SPPR](https://github.com/zhukaii/SPPR)
 
 ## Contact
 Wei Xie
