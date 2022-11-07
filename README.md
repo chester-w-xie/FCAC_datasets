@@ -1,12 +1,12 @@
-# Details of the datasets for Few-shot class-incremental audio classification (Nsynth-100 & FSC-89)
+# Details of the datasets for Few-shot class-incremental audio classification (NSynth-100 & FSC-89)
 ASVP@SCUT 👍👍👍🤙🤙🤙
 
-This repository contains the description of Nsynth-100 and Free-sound cilps of 89 classes (FSC-89) , which are proposed in the paper, 
+This repository contains the description of NSynth-100 and Free-sound cilps of 89 classes (FSC-89) , which are proposed in the paper, 
 "Few-shot class-incremental audio classification using adaptively-refined prototypes" (Submitted to ICASSP2023).
 
 Motivation for constructing the datasets: 
 
-To study the Few-shot Class-incremental Audio Classification (FCAC) problem, we constructed the Nsynth-100 dataset and FSC-89 dataset
+To study the Few-shot Class-incremental Audio Classification (FCAC) problem, we constructed the NSynth-100 dataset and FSC-89 dataset
 using partial samples from the [NSynth](https://magenta.tensorflow.org/datasets/nsynth) dataset and the [FSD-MIX-CLIPS](https://zenodo.org/record/5574135#.YWyINEbMIWo) dataset as the source materials,
 respectively.
 
@@ -14,7 +14,7 @@ respectively.
 
 **Table of Contents**
 - [Statistics on the datasets](#statistics-on-the-datasets)
-- [Preparation of the Nsynth-100 dataset](#preparation-of-the-Nsynth-100-dataset)
+- [Preparation of the NSynth-100 dataset](#preparation-of-the-NSynth-100-dataset)
 - [Preparation of the FSC-89 dataset](#preparation-of-the-fsc-89-dataset)
 - [Acknowledgment](#acknowledgment)
 - [Contact](#contact)
@@ -22,7 +22,7 @@ respectively.
 
 
 ## Statistics on the datasets
-|                                                                 |                  Nsynth-100                   |                    FSC-89                    |
+|                                                                 |                  NSynth-100                   |                    FSC-89                    |
 |:---------------------------------------------------------------:|:---------------------------------------------:|:--------------------------------------------:|
 |                          Type of audio                          |              Musical instruments              |                  Free sound                  |
 |                         Num. of classes                         | 100 (55 of base classes, 45 of novel classes) | 89 (59 of base classes, 30 of novel classes) |
@@ -31,33 +31,33 @@ respectively.
 |                     Duration of the sample                      |               All in 4 seconds                |               All in 1 second                |
 |                       Sampling frequency                        |                 All in 16K Hz                 |               All in 44.1K Hz                |
 
-## Preparation of the Nsynth-100 dataset
+## Preparation of the NSynth-100 dataset
 
 
 The NSynth dataset is an audio dataset containing 306,043 musical notes, each with a unique pitch, timbre, and envelope. 
 Those musical notes are belonging to 1,006 musical instruments. 
 
-Before constructing the Nsynth-100 dataset, we first conduct some statistical analysis on the Nsynth dataset, see [here](/Statistics_of_the_Nsynth_dataset.md).
+Before constructing the NSynth-100 dataset, we first conduct some statistical analysis on the NSynth dataset, see [here](/Statistics_of_the_Nsynth_dataset.md).
 
-Based on the statistical results, we obtain the Nsynth-100 dataset by the following steps:
+Based on the statistical results, we obtain the NSynth-100 dataset by the following steps:
 
-1. Download [Train set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-train.jsonwav.tar.gz), [Valid set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-valid.jsonwav.tar.gz), and [test set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-test.jsonwav.tar.gz) of the Nsynth dataset to your local machine and unzip them.
+1. Download [Train set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-train.jsonwav.tar.gz), [Valid set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-valid.jsonwav.tar.gz), and [test set](http://download.magenta.tensorflow.org/datasets/nsynth/nsynth-test.jsonwav.tar.gz) of the NSynth dataset to your local machine and unzip them.
 You should get a structure of the directory as follows:
 <pre>
-Your dataset root (Nsynth_audio_for_FCAC)
-├── nsynth-train　 # Training set of the Nsynth dataset
+Your dataset root (NSynth_audio_for_FCAC)
+├── nsynth-train　 # Training set of the NSynth dataset
 │    ├── audio
 │    |    ├── bass_acoustic_000-024-025.wav
 │    |    └── ....
 │    └── examples.json  # meta file of the training set
 │
-├── nsynth-val  # Validation set of the Nsynth dataset
+├── nsynth-val  # Validation set of the NSynth dataset
 │    ├── audio
 │    |    ├── bass_electronic_018-022-025.wav
 │    |    └── ....
 │    └── examples.json
 │
-└── nsynth-test # Test set of the Nsynth dataset
+└── nsynth-test # Test set of the NSynth dataset
      ├── audio
      |    ├── bass_electronic_018-022-100.wav
      |    └── ....
@@ -66,7 +66,7 @@ Your dataset root (Nsynth_audio_for_FCAC)
 2. Download the meta files for FCAC from [here](./Nsynth_meta_for_FCAC) to your local machine and unzip them.
 You should get a structure of the directory as follows:
 <pre>
-Your dataset root (Nsynth_meta_for_FCAC)
+Your dataset root (NSynth_meta_for_FCAC)
 ├── nsynth-100-fs-meta
 │    ├── nsynth-100-fs_train.csv # containing information of all training samples from the base and novel classes
 │    ├── nsynth-100-fs_val.csv  #　containing information of all validation samples from the base classes
@@ -93,9 +93,9 @@ Your dataset root (Nsynth_meta_for_FCAC)
 
 </pre>
 
-3. Run the following script to load the Nsynth-100 dataset:
+3. Run the following script to load the NSynth-100 dataset:
 ```
-python Load_nsynth_data_for_FCAC.py --metapath path to Nsynth_audio_for_FCAC folder --audiopath path to Nsynth_meta_for_FCAC folder --num_class 100 --base_class 55
+python Load_nsynth_data_for_FCAC.py --metapath path to NSynth_audio_for_FCAC folder --audiopath path to NSynth_meta_for_FCAC folder --num_class 100 --base_class 55
 
 ```
 
