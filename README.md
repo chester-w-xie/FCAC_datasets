@@ -2,7 +2,7 @@
 ASVP@SCUT 👍👍👍🤙🤙🤙
 
 This repository contains the description of NSynth-100 and Free-sound cilps of 89 classes (FSC-89) , which are proposed in the paper, 
-"Few-shot class-incremental audio classification using adaptively-refined prototypes" (Submitted to ICASSP2023).
+"Few-shot class-incremental audio classification using adaptively-refined prototypes" (Submitted to INTERSPEECH2023).
 
 Motivation for constructing the datasets: 
 
