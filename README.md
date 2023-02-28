@@ -133,17 +133,6 @@ Our project references the codes in the following repos.
 - [rethink-audio-fsl](https://github.com/wangyu/rethink-audio-fsl)
 - [SPPR](https://github.com/zhukaii/SPPR)
 
-## Contact
-Wei Xie
 
-South China University of Technology, Guangzhou, China
- 
-chester.w.xie@gmail.com
-
-
-## Citation
-Please cite our paper if you find the datasets are useful for your research.
-
-Wei Xie, Yanxiong Li, Qianhua He. "Few-shot class-incremental audio classification using adaptively-refined prototypes", Submitted to IEEE ICASSP 2023
 
 
