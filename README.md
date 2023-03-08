@@ -1,8 +1,8 @@
 # Details of the datasets for Few-shot class-incremental audio classification (NSynth-100 & FSC-89)
 👍👍👍🤙🤙🤙
 
-This repository contains the description of NSynth-100 and Free-sound cilps of 89 classes (FSC-89) , which are proposed in the paper, 
-"Few-shot class-incremental audio classification using adaptively-refined prototypes" (Submitted to INTERSPEECH2023).
+This repository contains the description of NSynth-100 and Free-sound cilps of 89 classes (FSC-89) , which are proposed in the our under review paper, 
+"Few-shot class-incremental audio classifications" .
 
 Motivation for constructing the datasets: 
 
@@ -37,7 +37,7 @@ respectively.
 The NSynth dataset is an audio dataset containing 306,043 musical notes, each with a unique pitch, timbre, and envelope. 
 Those musical notes are belonging to 1,006 musical instruments. 
 
-Before constructing the NSynth-100 dataset, we first conduct some statistical analysis on the NSynth dataset, see [here](/Statistics_of_the_Nsynth_dataset.md).
+Before constructing the NSynth-100 dataset, we first conduct some statistical analysis on the NSynth dataset, see [here](/Statistics_of_the_NSynth_dataset.md).
 
 Based on the statistical results, we obtain the NSynth-100 dataset by the following steps:
 
