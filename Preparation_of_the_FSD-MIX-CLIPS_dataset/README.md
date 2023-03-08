@@ -106,7 +106,7 @@ and the subset Novel-test contains sound samples of classes 74 to 88. The specif
 
 Considering the above statistics and the problem setting of FCAC, we have two options for constructing the FCAC dataset:
 
-### Setup 1 (default setting, used in our ICASSP2023 paper):
+### Setup 1 (default setting):
 - We select classes 0 to 58 as Base classes, classes 59 to 88 as Novel classes
 - for each Base class, 800 samples for training (Sampling from Base-train)
   200 samples for validation (Sampling from Base-val), 200 samples for testing  (Sampling from Base-test)
