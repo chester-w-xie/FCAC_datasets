@@ -23,7 +23,7 @@ Statistics on the samples of the training set:
 
 ➢ Based on the above statistics, we have the following options for constructing the dataset：
 
-#### setup 1 (NSynth-100, default setting, used in our ICASSP2023 paper):
+#### setup 1 (NSynth-100, default setting):
 Merging the test set and the validation set to obtain a dataset of novel audio classes,
 from which 45 classes with more than 200 samples are randomly selected as the novel classes. 
 Then 100 and 100 samples per novel class are randomly selected as the training and testing samples for that class, respectively. 
