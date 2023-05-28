@@ -1,8 +1,11 @@
 # Details of the datasets for Few-shot class-incremental audio classification (NSynth-100 & FSC-89)
 👍👍👍🤙🤙🤙
 
-This repository contains the description of NSynth-100 and Free-sound cilps of 89 classes (FSC-89) , which are proposed in the our under review paper, 
-"Few-shot class-incremental audio classifications" .
+This repository contains the description of NSynth-100 and Free-sound cilps of 89 classes (FSC-89) , which are proposed in the following paper:
+
+Few-shot Class-incremental Audio Classification Using Adaptively-refined Prototypes. INTERSPEECH, 2023.\
+[Wei Xie](https://chester-w-xie.github.io/), [Yanxiong Li](https://scholar.google.com/citations?user=ywDuJjEAAAAJ&hl=en),[Qianhua He](https://scholar.google.com/citations?user=xgI45kMAAAAJ&hl=en), Wenchang Cao and Tuomas Virtanen
+
 
 Motivation for constructing the datasets: 
 
@@ -134,5 +137,15 @@ Our project references the codes in the following repos.
 - [SPPR](https://github.com/zhukaii/SPPR)
 
 
-
+## Citation
+If you find this repository helpful, please consider citing:
+```
+@inproceedings{xie2023interspeech,
+  title={Few-shot Class-incremental Audio Classification Using Adaptively-refined Prototypes.},
+  author={Xie, Wei and Li, Yanxiong and He, Qianhua , Cao, Wenchang and Virtanen, Tuomas},
+  booktitle={Interspeech},
+  pages={},
+  year={2023}
+}
+```
 
