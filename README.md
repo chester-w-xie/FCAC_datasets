@@ -140,12 +140,13 @@ Our project references the codes in the following repos.
 ## Citation
 If you find this repository helpful, please consider citing:
 ```
-@inproceedings{xie2023interspeech,
-  title={Few-shot Class-incremental Audio Classification Using Adaptively-refined Prototypes.},
-  author={Xie, Wei and Li, Yanxiong and He, Qianhua , Cao, Wenchang and Virtanen, Tuomas},
-  booktitle={Interspeech},
-  pages={},
-  year={2023}
+@inproceedings{xie23b_interspeech,
+  author={Wei Xie and Yanxiong Li and Qianhua He and Wenchang Cao and Tuomas Virtanen},
+  title={{Few-shot Class-incremental Audio Classification Using Adaptively-refined Prototypes}},
+  year=2023,
+  booktitle={Proc. INTERSPEECH 2023},
+  pages={301--305},
+  doi={10.21437/Interspeech.2023-1380}
 }
 ```
 
